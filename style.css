@@ -186,7 +186,7 @@ footer a:hover {
     width: 100px; 
     display: grid;
     grid-template-columns: 50vw auto;
-    gap: 1rem;
+    
 }
 
 img {
@@ -196,13 +196,17 @@ img {
 #photos .images .pic-1 img {
     object-fit: cover;
     height: 100vh;
-    width: 50vw;
+    width: 45vw;
+    position: relative;
+    left: 1rem;
 }
 
 #photos .images .pic-2 img {
     object-fit: cover;
     height: 100vh;
-    width: 47.8vw;
+    width: 48.8vw;
+    position: relative;
+    right: 1rem;
 }
 
 section {
