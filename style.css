@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playfair+Display&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+  header {
+      position: fixed;
+    background-color: #6c757d;
+    padding: 1.5rem;
+    margin: 2rem;
+   width: 94vw;
+   border-radius: 10px;
+   z-index: 20;
+  }  
+
+header li {
+    display: inline;
+    color: white;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Courgette', cursive;
+font-family: 'Playfair Display', serif;
+}
+
+header li a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: #ced4da;
+    text-decoration: none
+  }
+  
+
+@media screen and (max-width: 600px) {
+
+    header {
+        position: fixed;
+      background-color: #ffe8d6;
+      padding: 1.5rem;
+      margin: 0rem;
+     width: 100vw;
+    }  
+}
+
+.adriano {
+    background-color: #212529;
+    height: 100vh;
+    width: auto;
+    color: white;
+    font-family: 'Courgette', cursive;
+font-family: 'Playfair Display', serif;
+    
+}
+
+.adriano .txt {
+    position: relative;
+    left: 40rem;
+    top: 10rem;
+    color: #f8f9fa;
+}
+
+.adriano .ipod {
+    position: relative;
+    top: 16rem;
+    left: 37rem;
+    width: 15vw;
+}
+
+.adriano .down {
+    position: absolute;
+    left: 42.5rem;
+    bottom: 20px;
+   width: 45px;
+
+}
+
+.videos {
+    background-color: #343a40;
+    height: 50vh;
+    width: auto;
+    color: white;
+    display: grid;
+    grid-template: 
+    "nale por favor rechauffe" auto;
+    justify-content: center;
+    
+}
+
+.videos .nale {
+    position: relative;
+    top: 5rem;
+    margin-left: 0.5rem;   
+}
+
+.videos .porfavor {
+    position: relative;
+    top: 5rem;
+    margin-left: 0.5rem;
+    
+    
+}
+
+.videos .rechauffe {
+    position: relative;
+    top: 5rem;
+    margin-left: 0.5rem;
+    
+}
+
+
+
+.bio {
+    background-color: #495057;
+    height: 50vh;
+    width: auto;
+    color: white;
+    font-family: 'Courgette', cursive;
+font-family: 'Playfair Display', serif;
+    
+}
+
+
+footer {
+    position: fixed;
+
+  background-color: #212529;
+  border: solid 1px #00000050;
+  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+
+  bottom: 1rem;
+  right: 1rem;
+  font-family: 'Courgette', cursive;
+font-family: 'Playfair Display', serif;
+}
+
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ced4da;
+    text-decoration: none
+  }
+
+
+.bio #Biography {
+    position: relative;
+    left: 42.6rem;
+    top: 1em;
+    
+}
+
+.bio .singer p {
+    font-family: sans-serif;
+    text-align: justify;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: minmax(50ch, 75ch);
+    justify-content: center;
+}
+
+#photos {
+    height: 100vh;
+    background-color: #6c757d;
+}
+
+#photos .images {
+    width: 100px; 
+    display: grid;
+    grid-template-columns: 50vw auto;
+    gap: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+#photos .images .pic-1 img {
+    object-fit: cover;
+    height: 100vh;
+    width: 50vw;
+}
+
+#photos .images .pic-2 img {
+    object-fit: cover;
+    height: 100vh;
+    width: 47.8vw;
+}
+
+section {
+    height: 100vh;
+    background-color: #adb5bd;
+}
+
+section h1 {
+position: relative;
+width: 20vw;
+left: 40rem;
+top: 0.5rem;
+color: #212529;
+}
+
+section .socials {
+    position: relative;
+    width: 98vw;
+    height: 90vh;
+}
+
+section .socials img{
+    position: relative;
+    width: 98vw;
+    height: 90vh;
+}
